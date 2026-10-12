@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone - Figma Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LEFT NAVIGATION -->
+    <aside class="sidebar">
+        <a href="#" class="brand">Instagram</a>
+
+        <nav class="navigation">
+            <a href="#" class="nav-link active">
+                <span class="icon">⌂</span><span class="nav-label">Home</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span class="icon">⌕</span><span class="nav-label">Search</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span class="icon">◎</span><span class="nav-label">Explore</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span class="icon">▣</span><span class="nav-label">Reels</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span class="icon">✉</span><span class="nav-label">Messages</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span class="icon">♡</span><span class="nav-label">Notifications</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span class="icon">＋</span><span class="nav-label">Create</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span class="profile-mini">A</span><span class="nav-label">Profile</span>
+            </a>
+        </nav>
+
+        <a href="#" class="nav-link more-link">
+            <span class="icon">☰</span><span class="nav-label">More</span>
+        </a>
+    </aside>
+
+    <!-- CENTER FEED -->
+    <main class="feed">
+
+        <!-- STORIES -->
+        <section class="stories">
+            <div class="story">
+                <div class="story-ring">
+                    <div class="story-picture own-story">+</div>
+                </div>
+                <span>Your story</span>
+            </div>
+
+            <div class="story">
+                <div class="story-ring">
+                    <img class="story-picture"
+                         src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=100&q=80"
+                         alt="Car story">
+                </div>
+                <span>verstappen</span>
+            </div>
+
+            <div class="story">
+                <div class="story-ring">
+                    <img class="story-picture"
+                         src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=100&q=80"
+                         alt="Space story">
+                </div>
+                <span>nasa</span>
+            </div>
+
+            <div class="story">
+                <div class="story-ring">
+                    <img class="story-picture"
+                         src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=100&q=80"
+                         alt="Science story">
+                </div>
+                <span>science</span>
+            </div>
+
+            <div class="story">
+                <div class="story-ring">
+                    <img class="story-picture"
+                         src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=100&q=80"
+                         alt="Wildlife story">
+                </div>
+                <span>wildlife</span>
+            </div>
+
+            <div class="story">
+                <div class="story-ring">
+                    <img class="story-picture"
+                         src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=100&q=80"
+                         alt="Racing story">
+                </div>
+                <span>formula1</span>
+            </div>
+        </section>
+
+        <!-- POST 1: RACING -->
+        <article class="post">
+            <header class="post-header">
+                <div class="post-user">
+                    <img class="user-avatar"
+                         src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=100&q=80"
+                         alt="">
+                    <div class="user-details">
+                        <strong>maxverstappen1</strong>
+                        <span>Original audio</span>
+                    </div>
+                </div>
+                <button class="post-menu" aria-label="Post options">•••</button>
+            </header>
+
+            <img class="post-image"
+                 src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=85"
+                 alt="Motorsport racing">
+
+            <div class="post-actions">
+                <div class="action-left">
+                    <button aria-label="Like">♡</button>
+                    <button aria-label="Comment">▢</button>
+                    <button aria-label="Share">➤</button>
+                </div>
+                <button class="save-button" aria-label="Save">♧</button>
+            </div>
+
+            <p class="likes"><strong>1,284,391 likes</strong></p>
+
+            <p class="caption">
+                <strong>maxverstappen1</strong>
+                Ready to race. 🏁
+            </p>
+
+            <p class="comments">View all 8,421 comments</p>
+            <p class="timestamp">2 HOURS AGO</p>
+        </article>
+
+        <!-- POST 2: STRING THEORY -->
+        <article class="post">
+            <header class="post-header">
+                <div class="post-user">
+                    <img class="user-avatar"
+                         src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=100&q=80"
+                         alt="">
+                    <div class="user-details">
+                        <strong>scienceexplained</strong>
+                        <span>Science &amp; technology</span>
+                    </div>
+                </div>
+                <button class="post-menu" aria-label="Post options">•••</button>
+            </header>
+
+            <div class="post-image theory-image">
+                <div class="theory-background">
+                    <h2>STRING THEORY</h2>
+                    <div class="theory-symbol">✺</div>
+                </div>
+            </div>
+
+            <div class="post-actions">
+                <div class="action-left">
+                    <button aria-label="Like">♡</button>
+                    <button aria-label="Comment">▢</button>
+                    <button aria-label="Share">➤</button>
+                </div>
+                <button class="save-button" aria-label="Save">♧</button>
+            </div>
+
+            <p class="likes"><strong>42,680 likes</strong></p>
+
+            <p class="caption">
+                <strong>scienceexplained</strong>
+                What if the universe has more dimensions than we can see? 🔭
+            </p>
+
+            <p class="comments">View all 512 comments</p>
+            <p class="timestamp">5 HOURS AGO</p>
+        </article>
+
+        <!-- SUGGESTED ACCOUNTS IN THE FEED -->
+        <section class="feed-suggestions">
+            <div class="suggestions-heading">
+                <strong>Suggestions for you</strong>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="suggestion-list">
+                <div class="suggestion-card">
+                    <button class="dismiss" aria-label="Dismiss">×</button>
+                    <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=100&q=80"
+                         alt="" class="suggestion-avatar">
+                    <strong>F1 Updates</strong>
+                    <span>Suggested for you</span>
+                    <button class="follow-button">Follow</button>
+                </div>
+
+                <div class="suggestion-card">
+                    <button class="dismiss" aria-label="Dismiss">×</button>
+                    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=100&q=80"
+                         alt="" class="suggestion-avatar">
+                    <strong>Space Facts</strong>
+                    <span>Suggested for you</span>
+                    <button class="follow-button">Follow</button>
+                </div>
+
+                <div class="suggestion-card">
+                    <button class="dismiss" aria-label="Dismiss">×</button>
+                    <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=100&q=80"
+                         alt="" class="suggestion-avatar">
+                    <strong>Science Daily</strong>
+                    <span>Suggested for you</span>
+                    <button class="follow-button">Follow</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- POST 3: WILDLIFE -->
+        <article class="post">
+            <header class="post-header">
+                <div class="post-user">
+                    <img class="user-avatar"
+                         src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=100&q=80"
+                         alt="">
+                    <div class="user-details">
+                        <strong>wildlifeplanet</strong>
+                        <span>Wildlife photography</span>
+                    </div>
+                </div>
+                <button class="post-menu" aria-label="Post options">•••</button>
+            </header>
+
+            <img class="post-image"
+                 src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=900&q=85"
+                 alt="Wildlife in nature">
+
+            <div class="post-actions">
+                <div class="action-left">
+                    <button aria-label="Like">♡</button>
+                    <button aria-label="Comment">▢</button>
+                    <button aria-label="Share">➤</button>
+                </div>
+                <button class="save-button" aria-label="Save">♧</button>
+            </div>
+
+            <p class="likes"><strong>86,204 likes</strong></p>
+
+            <p class="caption">
+                <strong>wildlifeplanet</strong>
+                Discover the beauty of the natural world. 🦅
+            </p>
+
+            <p class="comments">View all 1,103 comments</p>
+            <p class="timestamp">8 HOURS AGO</p>
+        </article>
+
+    </main>
+
+    <!-- RIGHT SIDEBAR -->
+    <aside class="right-sidebar">
+
+        <div class="account-row">
+            <div class="account-avatar">A</div>
+            <div class="account-details">
+                <strong>your_profile</strong>
+                <span>Your Name</span>
+            </div>
+            <a href="#">Switch</a>
+        </div>
+
+        <div class="right-heading">
+            <strong>Suggested for you</strong>
+            <a href="#">See All</a>
+        </div>
+
+        <div class="right-suggestion">
+            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=100&q=80" alt="">
+            <div class="right-suggestion-details">
+                <strong>science.daily</strong>
+                <span>Suggested for you</span>
+            </div>
+            <a href="#">Follow</a>
+        </div>
+
+        <div class="right-suggestion">
+            <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=100&q=80" alt="">
+            <div class="right-suggestion-details">
+                <strong>spacefacts</strong>
+                <span>Followed by nasa</span>
+            </div>
+            <a href="#">Follow</a>
+        </div>
+
+        <div class="right-suggestion">
+            <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=100&q=80" alt="">
+            <div class="right-suggestion-details">
+                <strong>f1updates</strong>
+                <span>Suggested for you</span>
+            </div>
+            <a href="#">Follow</a>
+        </div>
+
+        <div class="right-suggestion">
+            <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=100&q=80" alt="">
+            <div class="right-suggestion-details">
+                <strong>wildlife.world</strong>
+                <span>Suggested for you</span>
+            </div>
+            <a href="#">Follow</a>
+        </div>
+
+        <footer class="sidebar-footer">
+            About · Help · Press · API · Jobs · Privacy · Terms · Locations
+            <p>© 2026 INSTAGRAM CLONE</p>
+        </footer>
+
+    </aside>
+
+</body>
+</html>
